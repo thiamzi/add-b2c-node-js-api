@@ -1,7 +1,7 @@
 {
     "credentials": {
-        "tenantName": "reneorganisation",
-        "clientId": "efcbe9da-f38b-4bcd-a1c5-ab34445f4b76"
+        "tenantName": <yout tenant name>,
+        "clientId": <your client id>
     },
     "policies": {
         "policyName": "B2C_1_SUSI"
