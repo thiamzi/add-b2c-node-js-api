@@ -1,0 +1,40 @@
+{
+  "name": "azure-b2c-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+
+  
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "passport": "^0.4.1",
+    "passport-azure-ad": "^4.2.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure-Samples/active-directory-b2c-javascript-nodejs-webapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Azure-Samples/active-directory-b2c-javascript-nodejs-webapi/issues"
+  },
+  "homepage": "https://github.com/Azure-Samples/active-directory-b2c-javascript-nodejs-webapi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "keywords": [
+    "azure",
+    "ad",
+    "node.js",
+    "b2c",
+    "api"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "credentials": {
+        "tenantName": "reneorganisation",
+        "clientId": "efcbe9da-f38b-4bcd-a1c5-ab34445f4b76"
+    },
+    "policies": {
+        "policyName": "B2C_1_SUSI"
+    },
+    "resource": {
+        "scope": ["rabm-api.read"]
+    },
+    "metadata": {
+        "authority": "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": true,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    }
+}
